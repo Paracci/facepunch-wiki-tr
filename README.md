@@ -84,7 +84,7 @@ This project is a system that automatically translates and keeps up-to-date the 
 
 * **Google Gemini AI** \- Primary translation engine  
 * **DeepL API** \- Secondary fallback translation service  
-* **Helsinki-NLP/opus-mt-tc-big-en-tr** \- Local offline translation model  
+* **facebook/nllb-200-distilled-600M** \- Local offline translation model  
 * **Custom Validation** \- Translation quality control system
 
 ### **Frontend**
