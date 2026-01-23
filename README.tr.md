@@ -84,7 +84,7 @@ Bu proje, [wiki.facepunch.com](https://wiki.facepunch.com) sitesindeki İngilizc
 
 * **Google Gemini AI** \- Birincil çeviri motoru  
 * **DeepL API** \- İkincil yedek çeviri servisi  
-* **Helsinki-NLP/opus-mt-tc-big-en-tr** \- Yerel çevrimdışı çeviri modeli  
+* **facebook/nllb-200-distilled-600M** \- Yerel çevrimdışı çeviri modeli  
 * **Custom Validation** \- Çeviri kalite kontrol sistemi
 
 ### **Frontend**
