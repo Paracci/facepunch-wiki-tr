@@ -44,7 +44,7 @@ This project is a system that automatically translates and keeps up-to-date the 
 * **Triple-Layer Hybrid AI Model**:  
   * **Primary:** Google Gemini AI (High context awareness)  
   * **Secondary:** DeepL API (High linguistic accuracy)  
-  * **Final Fallback:** Facebook nllb-200-distilled-600M (Offline)
+  * **Final Fallback:** Facebook NLLB-200-distilled-1.3B + CTranslate2 INT8 (Offline)
   * *Automatic failover ensures 100% availability even if APIs are down.*  
 * **Technical Content Protection**:  
   * Code blocks are preserved unchanged  
@@ -84,7 +84,7 @@ This project is a system that automatically translates and keeps up-to-date the 
 
 * **Google Gemini AI** \- Primary translation engine  
 * **DeepL API** \- Secondary fallback translation service  
-* **facebook/nllb-200-distilled-600M** \- Local offline translation model  
+* **facebook/NLLB-200-distilled-1.3B + CTranslate2 INT8** \- Local offline translation model  
 * **Custom Validation** \- Translation quality control system
 
 ### **Frontend**
