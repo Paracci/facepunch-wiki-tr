@@ -44,7 +44,7 @@ Bu proje, [wiki.facepunch.com](https://wiki.facepunch.com) sitesindeki İngilizc
 * **Üç Katmanlı Hibrit YZ Modeli**:  
   * **Birincil:** Google Gemini AI (Yüksek bağlam farkındalığı)  
   * **İkincil:** DeepL API (Yüksek dilbilimsel doğruluk)  
-  * **Son Çare:** Facebook nllb-200-distilled-600M (Çevrimdışı çalışabilirlik)  
+  * **Son Çare:** Facebook NLLB-200-distilled-1.3B + CTranslate2 INT8 (Çevrimdışı çalışabilirlik)  
   * *Otomatik geçiş sistemi, API'ler çökse bile %100 erişilebilirlik sağlar.*  
 * **Teknik İçerik Koruması**:  
   * Kod blokları değişmeden korunur  
@@ -84,7 +84,7 @@ Bu proje, [wiki.facepunch.com](https://wiki.facepunch.com) sitesindeki İngilizc
 
 * **Google Gemini AI** \- Birincil çeviri motoru  
 * **DeepL API** \- İkincil yedek çeviri servisi  
-* **facebook/nllb-200-distilled-600M** \- Yerel çevrimdışı çeviri modeli  
+* **facebook/NLLB-200-distilled-1.3B + CTranslate2 INT8** \- Yerel çevrimdışı çeviri modeli  
 * **Custom Validation** \- Çeviri kalite kontrol sistemi
 
 ### **Frontend**
